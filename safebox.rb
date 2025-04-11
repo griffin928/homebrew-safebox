@@ -1,8 +1,8 @@
 class Safebox < Formula
   desc "加密文件夹为单个二进制文件的工具"
   homepage "https://github.com/griffin928/kangaroo-bin"
-  url "https://github.com/griffin928/kangaroo-bin/releases/download/v1.0.0/kangaroo-1.0.0.tar.gz"
-  sha256 "7580b74e7b311d8abcbf182543ebaa66f6fee4d08ebbc84cd015ba44464b5f0f"
+  url "https://github.com/griffin928/kangaroo-bin/raw/main/releases/kangaroo-1.0.1.tar.gz"
+  sha256 "fb1d8ddcf95cf1a01fc5a12a05d1f1023ef5aca5dca0bfe0173c6e81285692f2"
   license "专有"
   
   def install
