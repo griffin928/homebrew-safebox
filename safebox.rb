@@ -6,7 +6,8 @@ class Safebox < Formula
   license "专有"
   
   def install
-    bin.install Dir["bin/*"]
+    system "mkdir", "-p", "#{prefix}/bin"
+    system "cp", "bin/safebox", "#{prefix}/bin/"
   end
   
   test do
